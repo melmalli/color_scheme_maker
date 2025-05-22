@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lemon&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&family=Podkova:wght@400..800&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="csm_icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Color Scheme Maker</title>
+  </head>
+  <body>
+    <main>
+      <h1>Color Scheme Maker</h1>
+
+      <section id="palette">
+        <div class="color_container">
+          <div class="color unlocked" id="color1">
+            <div class="rgb_container"></div>
+          </div>
+          <div class="icon_container" id="icon_section1">
+            <img src="lock.svg" class="icon lock" alt="" /><img
+              src="change.svg"
+              class="icon change"
+              alt=""
+            />
+            <img src="display_color.svg" class="icon display_color" alt="" />
+          </div>
+        </div>
+
+        <div class="color_container">
+          <div class="color unlocked" id="color2">
+            <div class="rgb_container"></div>
+          </div>
+          <div class="icon_container" id="icon_section2">
+            <img src="lock.svg" class="icon lock" alt="" /><img
+              src="change.svg"
+              class="icon change"
+              alt=""
+            />
+            <img src="display_color.svg" class="icon display_color" alt="" />
+          </div>
+        </div>
+
+        <div class="color_container">
+          <div class="color unlocked" id="color3">
+            <div class="rgb_container"></div>
+          </div>
+          <div class="icon_container" id="icon_section3">
+            <img src="lock.svg" class="icon lock" alt="" /><img
+              src="change.svg"
+              class="icon change"
+              alt=""
+            />
+            <img src="display_color.svg" class="icon display_color" alt="" />
+          </div>
+        </div>
+
+        <div class="color_container">
+          <div class="color unlocked" id="color4">
+            <div class="rgb_container"></div>
+          </div>
+          <div class="icon_container" id="icon_section4">
+            <img src="lock.svg" class="icon lock" alt="" /><img
+              src="change.svg"
+              class="icon change"
+              alt=""
+            />
+            <img src="display_color.svg" class="icon display_color" alt="" />
+          </div>
+        </div>
+
+        <div class="color_container">
+          <div class="color unlocked" id="color5">
+            <div class="rgb_container"></div>
+          </div>
+          <div class="icon_container" id="icon_section5">
+            <img src="lock.svg" class="icon lock" alt="" /><img
+              src="change.svg"
+              class="icon change"
+              alt=""
+            />
+            <img src="display_color.svg" class="icon display_color" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="buttons">
+        <section id="unlock_show_hide_buttons">
+          <button class="button" id="unlock_all_button">Unlock All</button>
+          <button class="button" id="show_colors_button">
+            Show All Color Values
+          </button>
+          <button class="button" id="hide_color_button">
+            Hide All Color Values
+          </button>
+        </section>
+
+        <button class="button" id="shuffle_button">Shuffle</button>
+      </section>
+
+      <section id="instructions">
+        <p>
+          <img src="lock.svg" class="icon_guide" alt="" /> :&nbsp; prevent the
+          color from shuffling
+        </p>
+        <p>
+          <img src="change.svg" class="icon_guide" alt="" /> :&nbsp; change the
+          individual color
+        </p>
+        <p>
+          <img src="display_color.svg" class="icon_guide" alt="" /> :&nbsp;
+          toggle the color value
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
